@@ -1,0 +1,18 @@
+package com.example.day01generics.dynamiconlinemarketplace;
+
+class Gadget extends Product {
+    private String category;
+
+    public Gadget(String name, double price, String category) {
+        super(name, price);
+        this.category = category;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+    @Override
+    public String toString() {
+        return super.toString()+" Category: "+getCategory();
+    }
+}
