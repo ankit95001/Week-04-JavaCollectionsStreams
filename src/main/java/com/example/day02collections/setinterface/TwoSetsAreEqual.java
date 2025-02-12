@@ -11,6 +11,11 @@ public class TwoSetsAreEqual {
                 return false;
             }
         }
+        for(T item:set2){
+            if(!set1.contains(item)){
+                return false;
+            }
+        }
         return true;
     }
 
