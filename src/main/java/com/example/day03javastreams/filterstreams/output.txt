@@ -1,0 +1,23 @@
+1. why should we hire you?
+i have a strong foundation in java, data structures, and algorithms, along with experience in android development, as demonstrated by my project 'tit sports,' which enhance my problem solving skills provided real-world experience. my technical skills align well with the requirements of this role, and i believe i can make valuable contributions while continuing 	to expand my own skills.
+
+2. why capgemini?
+i am particularly excited about joining capgemini because of its global leadership in technology and digital transformation. with its strong focus on innovation, capgemini provides an excellent platform for me to leverage my skills in java and android development, while also gaining exposure to cutting-edge technologies like ai, cloud, and data analytics. moreover, i value the company's collaborative culture and commitment to employee growth, which aligns with my personal and professional aspirations. i’m confident that capgemini offers the ideal environment for me to kick start my carrier.
+
+3. non technical skills that you have learned during your project?
+"team collaboration", this experience taught me the importance of active listening, adaptability, and conflict resolution, all of which helped us complete the project successfully.
+
+4. what is your strength?
+one of my key strengths is problem-solving. during my work on various projects, including the 'tit sports' app, i’ve been able to tackle complex technical challenges by breaking them down and systematically finding solutions. i'm also very detail-oriented, which helps me catch issues early and ensures high-quality work. additionally, i have strong communication skills, which allow me to collaborate effectively with team members and convey technical ideas in a way that is easy for others to understand.
+
+5. what is your weakness?
+one area i’ve been working on is delegation. in the past, i had a tendency to take on too much responsibility myself because i wanted to ensure everything was done perfectly. however, i’ve learned that effective delegation not only helps the team grow but also improves overall efficiency. i’ve been consciously working on trusting my team members more and dividing tasks so that we can achieve better outcomes together.
+
+6. what are your hobbies and interest?
+in my free time, i enjoy playing sports, particularly cricket and badminton, as they help me stay active and improve my teamwork and strategic thinking. i also have a strong interest in teaching, in free time i use to teach coding to my juniors.
+
+7. where do you see yourself in five years?
+in two years, i see myself as an integral part of this organization. during this time, i aim to learn as much as possible and aspire to become a team leader or project leader. my goal is to guide my juniors to become the best salespeople and individuals they can be. my long-term career goal is to be a knowledgeable and effective team leader who provides excellent guidance and support to juniors.
+
+8. are you open to relocate?
+yes, i am open to relocating. i believe that new environments and experiences can be valuable for both personal and professional growth.
