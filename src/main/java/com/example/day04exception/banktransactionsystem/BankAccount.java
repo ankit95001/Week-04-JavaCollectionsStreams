@@ -8,6 +8,10 @@ public class BankAccount {
         this.balance = initialBalance;
     }
 
+    public double getBalance(){
+        return this.balance;
+    }
+
     public void withdraw(double amount) throws InsufficientBalanceException {
         if (amount < 0) {
             throw new IllegalArgumentException("Invalid amount!");
