@@ -1,4 +1,4 @@
-package com.example.day05junit.validateusername;
+package com.example.day05regex.validateusername;
 
 import java.util.regex.*;
 
