@@ -1,4 +1,4 @@
-package com.example.day05regex.validatehexcolor;
+package com.example.day05regex.basicregexproblems;
 
 import java.util.regex.*;
 

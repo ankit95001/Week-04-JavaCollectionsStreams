@@ -1,6 +1,7 @@
-package com.example.day05regex.validatelicenseplate;
+package com.example.day05regex.basicregexproblems;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Test;
 
 public class LicensePlateValidatorTest {

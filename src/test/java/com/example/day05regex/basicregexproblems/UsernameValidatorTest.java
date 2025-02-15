@@ -1,8 +1,7 @@
-package com.example.day05regex.validateusername;
+package com.example.day05regex.basicregexproblems;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.example.day05regex.validateusername.UsernameValidator;
 import org.junit.jupiter.api.Test;
 
 public class UsernameValidatorTest {
