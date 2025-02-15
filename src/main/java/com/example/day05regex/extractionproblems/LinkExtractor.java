@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class LinkExtractor {
     public static ArrayList<String> extractLinks(String text) {
-        String regex = "\\bhttps?://(www\\.)?([a-zA-Z0-9.-]+)\\b";
+        String regex = "\\bhttps?://(www\\.)?([a-zA-Z0-9.-?]+)\\b";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text);
 
