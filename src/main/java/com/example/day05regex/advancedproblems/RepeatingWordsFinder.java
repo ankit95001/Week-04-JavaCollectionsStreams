@@ -6,6 +6,7 @@ import java.util.Set;
 
 public class RepeatingWordsFinder {
     public static Set<String> findRepeatingWords(String text) {
+        text=text.toLowerCase();
         String regex = "\\b(\\w+)\\b(?=.*\\b\\1\\b)";
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text);
