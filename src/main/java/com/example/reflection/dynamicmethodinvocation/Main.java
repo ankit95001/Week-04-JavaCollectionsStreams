@@ -4,22 +4,23 @@ import java.lang.reflect.Method;
 
 public class Main {
     public static void main(String[] args) {
-        invokeMethod("add", 10, 5);
-        invokeMethod("subtract", 10, 5);
-        invokeMethod("multiply", 10, 5);
+        int a =10,b=5;
+        System.out.println("add" + "(" + a + ", " + b + ") = " + invokeMethod("add",a,b));
+        System.out.println("subtract" + "(" + a + ", " + b + ") = " + invokeMethod("subtract",a,b));
+        System.out.println("multiply" + "(" + a + ", " + b + ") = " + invokeMethod("multiply",a,b));
     }
 
-    public static void invokeMethod(String methodName, int a, int b) {
+    public static int invokeMethod(String methodName, int a, int b) {
         try {
             Class<?> cls = Class.forName("com.example.reflection.dynamicmethodinvocation.MathOperations");
             Object instance = cls.getDeclaredConstructor().newInstance();
 
             Method method = cls.getMethod(methodName, int.class, int.class);
             
-            int result = (int) method.invoke(instance, a, b);
-            System.out.println(methodName + "(" + a + ", " + b + ") = " + result);
+            return (int) method.invoke(instance, a, b);
         } catch (Exception e) {
             e.printStackTrace();
         }
+        return -1;
     }
 }
