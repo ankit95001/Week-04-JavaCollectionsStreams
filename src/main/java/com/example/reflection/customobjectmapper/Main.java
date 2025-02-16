@@ -1,0 +1,45 @@
+package com.example.reflection.customobjectmapper;
+
+import java.lang.reflect.Field;
+
+public class Main {
+    public static void main(String[] args) {
+        Person person = new Person("Ankit", 22, "ankit.kumar@gmail.com");
+        String json = objectToJson(person);
+        System.out.println(json);
+    }
+
+    public static String objectToJson(Object obj) {
+        StringBuilder jsonBuilder = new StringBuilder();
+        jsonBuilder.append("{");
+
+        try {
+            Class<?> cls = obj.getClass();
+            Field[] fields = cls.getDeclaredFields();
+
+            for (int i = 0; i < fields.length; i++) {
+                fields[i].setAccessible(true);
+                String fieldName = fields[i].getName();
+                Object fieldValue = fields[i].get(obj);
+
+                jsonBuilder.append("\"").append(fieldName).append("\": ");
+
+                if (fieldValue instanceof String) {
+                    jsonBuilder.append("\"").append(fieldValue).append("\"");
+                } else {
+                    jsonBuilder.append(fieldValue);
+                }
+
+                if (i < fields.length - 1) {
+                    jsonBuilder.append(", ");
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        jsonBuilder.append("}");
+        return jsonBuilder.toString();
+    }
+}
+
