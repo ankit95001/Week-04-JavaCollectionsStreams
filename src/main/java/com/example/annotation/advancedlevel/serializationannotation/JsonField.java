@@ -1,0 +1,10 @@
+package com.example.annotation.advancedlevel.serializationannotation;
+
+import java.lang.annotation.*;
+
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.FIELD)
+public @interface JsonField {
+    String name();
+}
+
